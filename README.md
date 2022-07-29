@@ -1,4 +1,4 @@
-##MultiAction Reinforcement Learning agent
+## MultiAction Reinforcement Learning agent
 
 This repo contains an agent for MultiAction Reinforcement Learning. It can be used when the action is discrete (hence a gym.spaces.MultiDiscrete action space) or when the action is continuous (hence a gym.spaces.Box action space).
 
@@ -10,7 +10,7 @@ Please install the dependencies by running the following command with pip:
 pip install -r requirements.txt
 ```
 
-#Performance
+# Performance
 
 This agent was used to train the [Pendulum-v1](https://gym.openai.com/envs/Pendulum-v1/) environment. Its results for different number of bins are 
 ![Pendulum results](img/pendulum_reward_bin_comparison.png)
